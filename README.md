@@ -39,18 +39,18 @@ Follow "4. Use Environment Variables in place of your API key" in the tutorial [
 
 ## 4. Review Streamlit capabliites
 * UI Design
- - [st.write and magic commands](https://docs.streamlit.io/library/api-reference/write-magic)
- - [Input widget](https://docs.streamlit.io/library/api-reference/widgets)
- - [Text elements](https://docs.streamlit.io/library/api-reference/text)
- - [Data elements](https://docs.streamlit.io/library/api-reference/data)
- - [Chart elements](https://docs.streamlit.io/library/api-reference/charts)
- - [Layouts and Containers](https://docs.streamlit.io/library/api-reference/layout)
- - [Media elements](https://docs.streamlit.io/library/api-reference/media)
- - [Chat elements](https://docs.streamlit.io/library/api-reference/chat)
- - [Display progress and status](https://docs.streamlit.io/library/api-reference/status)
- - [Control flow](https://docs.streamlit.io/library/api-reference/control-flow)
-* [A cheat sheet of Streamlit code](https://docs.streamlit.io/library/cheatsheet) 
-* And [so much more](https://docs.streamlit.io/get-started)
+    - [st.write and magic commands](https://docs.streamlit.io/library/api-reference/write-magic)
+    - [Input widget](https://docs.streamlit.io/library/api-reference/widgets)
+    - [Text elements](https://docs.streamlit.io/library/api-reference/text)
+    - [Data elements](https://docs.streamlit.io/library/api-reference/data)
+    - [Chart elements](https://docs.streamlit.io/library/api-reference/charts)
+    - [Layouts and Containers](https://docs.streamlit.io/library/api-reference/layout)
+    - [Media elements](https://docs.streamlit.io/library/api-reference/media)
+    - [Chat elements](https://docs.streamlit.io/library/api-reference/chat)
+    - [Display progress and status](https://docs.streamlit.io/library/api-reference/status)
+    - [Control flow](https://docs.streamlit.io/library/api-reference/control-flow)
+    * [A cheat sheet of Streamlit code](https://docs.streamlit.io/library/cheatsheet) 
+    * And [so much more](https://docs.streamlit.io/get-started)
 
 ## 5. Working with 3rd party APIs
 coming soon!
