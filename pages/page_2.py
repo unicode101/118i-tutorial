@@ -4,6 +4,7 @@ import streamlit as st
 from PIL import Image
 import requests
 from openai import OpenAI
+from pathlib import Path
 
 st.markdown("# Page 2: Image Generation (Lab 3) ❄️")
 st.sidebar.markdown("# Page 2: Image Generation ❄️")
@@ -46,7 +47,7 @@ def get_image(prompt, model="dall-e-2"):
     )
     # Download the image
 
-    filename = filename_from_input(prompt) + ".png"
+    filename = str(Path(__file__).parent)+ "/"+ filename_from_input(prompt) + ".png"
     download_image(filename, image.data[0].url)
 
     return image
@@ -55,11 +56,10 @@ def get_image(prompt, model="dall-e-2"):
 #print(response)
 
 with st.form(key = "chat"):
-    prompt = st.text_input('Enter keywords about the images you want to generate', 'Keywordds here...')
+    prompt = st.text_input('Enter keywords about the images you want to generate')
     submitted = st.form_submit_button("Submit")
         
     if submitted:
         response = get_image(prompt)
-        image = Image.open('images/'+prompt+'.png')
+        image = Image.open(str(Path(__file__).parent)+'/images/'+prompt+'.png')
         st.image(image, caption='New Image')
-
