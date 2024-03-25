@@ -51,13 +51,19 @@ Follow "4. Use Environment Variables in place of your API key" in the tutorial [
     - [Chat elements](https://docs.streamlit.io/library/api-reference/chat)
     - [Display progress and status](https://docs.streamlit.io/library/api-reference/status)
     - [Control flow](https://docs.streamlit.io/library/api-reference/control-flow)
-* [A cheat sheet of Streamlit code](https://docs.streamlit.io/library/cheatsheet) 
+    - [Theming](https://docs.streamlit.io/library/advanced-features/theming)
+    - [Colors](https://coolors.co/)
+    - [Fonts](https://fonts.google.com/)
+    - [A cheat sheet of Streamlit code](https://docs.streamlit.io/library/cheatsheet) 
 * **More capabilities**
     - [Multipage apps - Streamlit Docs](https://docs.streamlit.io/library/advanced-features/multipage-apps)
     - [Components • Streamlit](https://streamlit.io/components)
     - [Connect to data sources - Streamlit Docs](https://docs.streamlit.io/knowledge-base/tutorials/databases)
     - [Dataframes - Streamlit Docs](https://docs.streamlit.io/library/advanced-features/dataframes)
     - [File Uploads](https://docs.streamlit.io/library/api-reference/widgets/st.file_uploader)
+* **Deploy Your App to the Web**
+    - [Streamlit Community Cloud](https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app)
+    - [Deploy Streamlit apps](https://docs.streamlit.io/knowledge-base/tutorials/deploy) 
 
 ## 6. Learn how to use Git and Github
 - **[How to Use Git and GitHub](https://www.freecodecamp.org/news/introduction-to-git-and-github/)** 
