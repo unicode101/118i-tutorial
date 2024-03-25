@@ -1,5 +1,5 @@
 # Instructions
-This project is a template tutorial used in AI4SG class final project.
+This project is a resource page used in AI4SG class final project.
 
 ## 1. Clone a package 
 Download the package into VS Code by running the following in VS Code terminal:
