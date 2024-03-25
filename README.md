@@ -4,7 +4,7 @@ This project is a template tutorial used in AI4SG class final project.
 ## 1. Clone a package 
 Download the package into VS Code by running the following in VS Code terminal:
 ```bash
-git pull 'https://github.com/unicode101/118i-tutorial.git'
+git clone https://github.com/unicode101/118i-tutorial.git
 ```
 
 ## 2. Run the cloned project 
