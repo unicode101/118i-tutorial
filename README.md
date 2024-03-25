@@ -54,5 +54,9 @@ Follow "4. Use Environment Variables in place of your API key" in the tutorial [
 * [A cheat sheet of Streamlit code](https://docs.streamlit.io/library/cheatsheet) 
 * And [so much more](https://docs.streamlit.io/get-started)
 
-## 5. Working with 3rd party APIs
+## 6. Learn how to use Git and Github
+- **[How to Use Git and GitHub](https://www.freecodecamp.org/news/introduction-to-git-and-github/)** 
+- **[Git Tutorial for Absolute Beginners](https://www.youtube.com/watch?v=CvUiKWv2-C0)** 
+
+## 7. Working with 3rd party APIs
 coming soon!
