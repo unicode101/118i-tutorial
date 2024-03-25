@@ -5,7 +5,7 @@ from PIL import Image
 import requests
 from openai import OpenAI
 
-st.markdown("# Page 2 ❄️")
+st.markdown("# New Page 2 ❄️")
 st.sidebar.markdown("# Page 2 ❄️")
 
 openai.api_key = os.environ["OPENAI_API_KEY"]

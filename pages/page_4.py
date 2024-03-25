@@ -1,5 +1,4 @@
 import openai
-
 import os
 import openai
 import streamlit as st
@@ -23,20 +22,32 @@ if st.button('Submit'):
     st.write(f'Source language: {source_language}')
     st.write(f'Target language: {target_language}')
 
-"""
+
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 client = OpenAI()
 
+
 def translate(text, source_language = "English", target_language = "French"):
-    response = openai.Completion.create(
-        engine="text-davinci-002",
-        prompt=f"Translate the following " + source_language + " text to "+target_language+": {text}",
-        temperature=0.5,
-        max_tokens=60
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {
+                "role": "system",
+                "content": "You will be provided with a sentence in "+ source_language
+                +", and your task is to translate it into ." + target_language 
+            },
+            {
+                "role": "user",
+                "content": text
+            }
+        ],
+        temperature=0.7,
+        max_tokens=64,
+        top_p=1
     )
-    return response.choices[0].text.strip()
+    
+    return response.choices[0].message.content
 
-print(response.choices[0].text.strip())
-
-"""
+st.write(translate(text, source_language, target_language))
+# Path: pages/page_5.py
