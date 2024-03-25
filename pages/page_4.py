@@ -50,4 +50,3 @@ def translate(text, source_language = "English", target_language = "French"):
     return response.choices[0].message.content
 
 st.write(translate(text, source_language, target_language))
-# Path: pages/page_5.py
