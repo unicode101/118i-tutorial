@@ -52,7 +52,12 @@ Follow "4. Use Environment Variables in place of your API key" in the tutorial [
     - [Display progress and status](https://docs.streamlit.io/library/api-reference/status)
     - [Control flow](https://docs.streamlit.io/library/api-reference/control-flow)
 * [A cheat sheet of Streamlit code](https://docs.streamlit.io/library/cheatsheet) 
-* And [so much more](https://docs.streamlit.io/get-started)
+* **More capabilities**
+    - [Multipage apps - Streamlit Docs](https://docs.streamlit.io/library/advanced-features/multipage-apps)
+    - [Components • Streamlit](https://streamlit.io/components)
+    - [Connect to data sources - Streamlit Docs](https://docs.streamlit.io/knowledge-base/tutorials/databases)
+    - [Dataframes - Streamlit Docs](https://docs.streamlit.io/library/advanced-features/dataframes)
+    - [File Uploads](https://docs.streamlit.io/library/api-reference/widgets/st.file_uploader)
 
 ## 6. Learn how to use Git and Github
 - **[How to Use Git and GitHub](https://www.freecodecamp.org/news/introduction-to-git-and-github/)** 
