@@ -5,8 +5,8 @@ from PIL import Image
 import requests
 from openai import OpenAI
 
-st.markdown("# Page 2 ❄️")
-st.sidebar.markdown("# Page 2 ❄️")
+st.markdown("# Page 2: Image Generation ❄️")
+st.sidebar.markdown("# Page 2: Image Generation ❄️")
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
@@ -55,7 +55,7 @@ def get_image(prompt, model="dall-e-2"):
 #print(response)
 
 with st.form(key = "chat"):
-    prompt = st.text_input('Enter some text', 'Enter some text')
+    prompt = st.text_input('Enter keywords about the images you want to generate', 'Keywordds here...')
     submitted = st.form_submit_button("Submit")
         
     if submitted:

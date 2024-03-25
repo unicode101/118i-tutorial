@@ -3,8 +3,8 @@ import os
 import openai
 from openai import OpenAI
 
-st.markdown("# Page 3 🎉")
-st.sidebar.markdown("# Page 3 🎉")
+st.markdown("# Page 3: Transcription 🎉")
+st.sidebar.markdown("# Page 3: Transcription🎉")
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
 

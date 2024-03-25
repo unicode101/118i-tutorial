@@ -5,15 +5,15 @@ import streamlit as st
 import requests
 from openai import OpenAI
 
-st.markdown("# Page 4 ❄️")
-st.sidebar.markdown("# Page 4 ❄️")
+st.markdown("# Page 4: Translation ❄️")
+st.sidebar.markdown("# Page 4: Translation ❄️")
 
 # Create two radio buttons
-source_language = st.radio('Source language', ['English', 'French', 'German'])
-target_language = st.radio('Target language', ['English', 'French', 'German'])
+source_language = st.radio('Select Source language', ['English', 'French', 'German'])
+target_language = st.radio('Select Target language', ['English', 'French', 'German'])
 
 # Create a text input field
-text = st.text_input('Enter what you want to translate')
+text = st.text_input('Enter the text you want to translate:')
 
 # Create a button
 if st.button('Submit'):
