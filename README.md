@@ -69,16 +69,18 @@ Follow "4. Use Environment Variables in place of your API key" in the tutorial [
 - **[How to Use Git and GitHub](https://www.freecodecamp.org/news/introduction-to-git-and-github/)** 
 - **[Git Tutorial for Absolute Beginners](https://www.youtube.com/watch?v=CvUiKWv2-C0)** 
 
-## 7. Working with 3rd party APIs
-- requests library · PyPI (useful for sending HTTP requests to interact with APIs)
-- The Twilio Python Helper Library (connect to the Twilio API; can make calls and send SMS)
-- Beautiful Soup – parsing HTML and scraping the web
-- Pandas – open-source data analysis 
-- PyMuPDF – extract text from PDFs 
-- pdfquery · PyPI – transform a PDF document into an element tree 
-- Website Carbon API 
-- Air Pollution API 
-- Spotipy 
-- Twitter Developer Platform overview | Docs
+## 7. Working with 3rd party APIs or libraries
+- Libraries
+    - requests library · PyPI (useful for sending HTTP requests to interact with APIs)
+    - The Twilio Python Helper Library (connect to the Twilio API; can make calls and send SMS)
+    - Beautiful Soup – parsing HTML and scraping the web
+    - Pandas – open-source data analysis 
+    - PyMuPDF – extract text from PDFs 
+    - pdfquery · PyPI – transform a PDF document into an element tree 
+- APIs
+    - Website Carbon API 
+    - Air Pollution API 
+    - Spotipy 
+    - Twitter Developer Platform overview | Docs
 
 Contributors: YeeKit Chan, Erica Lai
