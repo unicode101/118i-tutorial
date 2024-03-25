@@ -8,8 +8,11 @@ git clone https://github.com/unicode101/118i-tutorial.git
 ```
 
 ## 2. Run the cloned project 
-Run the project on VS Code. First, please update your API key setting. Please follow the tutorial below to protect your API key. 
+First, please update your API key setting. Please follow the tutorial below to protect your API key. 
 Follow **4. Use Environment Variables in place of your API key** in the tutorial [Best Practices for API Key Safety](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety).
+
+Here are screenshots of the project.
+
 
 ## 3. Review OpenAI capabilities
 * **[Text generation](https://platform.openai.com/docs/guides/text-generation)**
