@@ -2,9 +2,11 @@ import streamlit as st
 import os
 import openai
 from openai import OpenAI
+from pathlib import Path
 
-st.markdown("# Page 3: Transcription 🎉")
+st.markdown("# Page 3: Transcription 🎉 (Lab 4)")
 st.sidebar.markdown("# Page 3: Transcription🎉")
+
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
@@ -13,10 +15,13 @@ client = OpenAI()
 
 # display audio based on the following tutorial:
 # https://www.educative.io/answers/how-to-add-the-media-elements-to-the-streamlit-web-interface
-audio_file_path = 'audio/Meeting_Minutes.mp3'
+#speech_file_path = Path(__file__).parent / 'pages/audio/Meeting_Minutes.mp3'
+#audio_file_path = 'audio/Meeting_Minutes.mp3'
+audio_file_path = Path(__file__).parent / 'audio/Meeting_Minutes.mp3'
 audio_file = open(audio_file_path, 'rb')
 audio_bytes = audio_file.read()
 st.audio(audio_bytes, format='audio/mp3')
+st.write("Transcribing and Summarizing Audio file... Please wait for the results...")
 
 # transcribe the audio 
 # Given the path to an audio file, transcribes the audio using Whisper.
