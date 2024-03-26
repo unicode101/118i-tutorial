@@ -18,7 +18,7 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
         model=model,
         messages=[
         {"role":"system",
-         "content": "Your job is to help me understand a conpcet that a 6-year old can understand."},
+         "content": "Your job is to help me understand a concept that a 6-year-old can understand."},
         {"role": "user",
          "content": prompt},
         ]
