@@ -72,17 +72,17 @@ Follow **4. Use Environment Variables in place of your API key** in the tutorial
 - **[Git Tutorial for Absolute Beginners](https://www.youtube.com/watch?v=CvUiKWv2-C0)** 
 
 ## 7. Working with 3rd party APIs or libraries
-- Libraries
-    - requests library · PyPI (useful for sending HTTP requests to interact with APIs)
-    - The Twilio Python Helper Library (connect to the Twilio API; can make calls and send SMS)
-    - Beautiful Soup – parsing HTML and scraping the web
-    - Pandas – open-source data analysis 
-    - PyMuPDF – extract text from PDFs 
-    - pdfquery · PyPI – transform a PDF document into an element tree 
-- APIs
-    - Website Carbon API 
-    - Air Pollution API 
-    - Spotipy 
-    - Twitter Developer Platform overview | Docs
+- Helpful Libraries
+    - [requests library · PyPI](https://pypi.org/project/requests/) (useful for sending HTTP requests to interact with APIs)
+    - [The Twilio Python Helper Library](https://www.twilio.com/docs/libraries/reference/twilio-python/) (connect to the Twilio API; can make calls and send SMS)
+    - [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/) – parsing HTML and scraping the web
+    - [Pandas](https://pandas.pydata.org/) – open-source data analysis 
+    - [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/) – extract text from PDFs 
+    - [pdfquery · PyPI](https://pypi.org/project/pdfquery/) – transform a PDF document into an element tree 
+- Helpful APIs
+    - [Website Carbon API](https://api.websitecarbon.com/)
+    - [Air Pollution API](https://openweathermap.org/api/air-pollution)
+    - [Spotipy](https://spotipy.readthedocs.io/en/2.22.1/)
+    - [Twitter Developer Platform overview | Docs](https://developer.twitter.com/en/docs/platform-overview)
 
 Contributors: YeeKit Chan, Erica Lai

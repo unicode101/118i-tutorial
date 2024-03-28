@@ -13,7 +13,7 @@ source_language = st.radio('Select Source language', ['English', 'French', 'Germ
 target_language = st.radio('Select Target language', ['English', 'French', 'German'])
 
 # Create a text input field
-text = st.text_input('Enter the text you want to translate:')
+text = st.text_input('Enter the text you want to translate: ')
 
 # Create a button
 if st.button('Submit'):
@@ -35,7 +35,7 @@ def translate(text, source_language = "English", target_language = "French"):
             {
                 "role": "system",
                 "content": "You will be provided with a sentence in "+ source_language
-                +", and your task is to translate it into ." + target_language 
+                +", and your task is to translate it into " + target_language 
             },
             {
                 "role": "user",
