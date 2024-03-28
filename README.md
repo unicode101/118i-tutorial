@@ -67,6 +67,10 @@ Follow **4. Use Environment Variables in place of your API key** in the tutorial
     - [Streamlit Community Cloud](https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app)
     - [Deploy Streamlit apps](https://docs.streamlit.io/knowledge-base/tutorials/deploy) 
 
+## 5. Collaboration tools
+- **Github** See Section 6 for more details
+- **Live Share VS Code** [Check this tutorial](https://learn.microsoft.com/en-us/visualstudio/liveshare/quickstart/share)
+
 ## 6. Learn how to use Git and Github
 - **[How to Use Git and GitHub](https://www.freecodecamp.org/news/introduction-to-git-and-github/)** 
 - **[Git Tutorial for Absolute Beginners](https://www.youtube.com/watch?v=CvUiKWv2-C0)** 
