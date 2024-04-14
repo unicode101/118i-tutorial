@@ -54,6 +54,7 @@ Follow **4. Use Environment Variables in place of your API key** in the tutorial
     - [Display progress and status](https://docs.streamlit.io/library/api-reference/status)
     - [Control flow](https://docs.streamlit.io/library/api-reference/control-flow)
     - [Theming](https://docs.streamlit.io/library/advanced-features/theming)
+    - [Theming Example] (https://github.com/streamlit/theming-showcase-blue/tree/main)
     - [Colors](https://coolors.co/)
     - [Fonts](https://fonts.google.com/)
     - [A cheat sheet of Streamlit code](https://docs.streamlit.io/library/cheatsheet) 
