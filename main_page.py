@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from annotated_text import annotated_text
 import time
 
 
@@ -9,9 +8,13 @@ import time
 st.markdown("# Main page 🎈")
 st.sidebar.markdown("# Main page 🎈")
 
-message = "Welcome to the main page! 🎉\nPlease navigate the pages to explore some sample code."
-
+message = "This page provides template for Streamlit UI components! 🎉\nPlease navigate the pages to explore some sample code."
+message += "Please check the Streamlit Documentation page for more componets."
 st.write(message)
+
+st.link_button("Click for more Streamlit features", "https://docs.streamlit.io/develop")
+
+
 
 st.subheader('Slider Example', divider='grey')
 
@@ -87,20 +90,6 @@ with col3:
 st.link_button("Click for more column styles", "https://docs.streamlit.io/develop/api-reference/layout/st.columns")
 
 st.subheader('Text Element', divider='grey')
-annotated_text(
-    "This ",
-    ("is", "verb"),
-    " some ",
-    ("annotated", "adj"),
-    ("text", "noun"),
-    " for those of ",
-    ("you", "pronoun"),
-    " who ",
-    ("like", "verb"),
-    " this sort of ",
-    ("thing", "noun"),
-    "."
-)
 st.link_button("Click for more text elements", "https://docs.streamlit.io/develop/api-reference/text")
 
 
