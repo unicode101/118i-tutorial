@@ -38,19 +38,6 @@ def photo_rec(image_path):
     )
     return response.choices[0].message.content
 
-# create a wrapper function
-def get_completion(prompt, model="gpt-3.5-turbo"):
-   completion = client.chat.completions.create(
-        model=model,
-        messages=[
-        {"role":"system",
-         "content": "Your job is to generate recipe based on the prompt."},
-        {"role": "user",
-         "content": prompt},
-        ]
-    )
-   return completion.choices[0].message.content
-
 
 if uploaded_file is not None:
     with open(os.path.join('images',uploaded_file.name), 'wb') as f:
@@ -60,4 +47,3 @@ if uploaded_file is not None:
     st.image(image_path)
     content = photo_rec(image_path)
     st.write(content)
-    st.write(get_completion(content))
