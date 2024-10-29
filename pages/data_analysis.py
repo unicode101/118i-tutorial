@@ -1,3 +1,7 @@
+
+# The tutorial is created based on the contribution of Matthew Ignacio, MIS'23 with permission.
+# The code is further reviesd with the help of GitHub Copilot
+# #pip3 install pandas, requests, matplotlib, seaborn
 import pandas as pd
 import requests
 import json
