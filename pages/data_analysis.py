@@ -13,7 +13,7 @@ from openai import OpenAI
 data = pd.read_csv('data/Data.csv')
 
 # Display the first few rows of the DataFrame
-data.head()
+st.write(data.head())
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 client = OpenAI()
@@ -48,5 +48,6 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
     )
    return completion.choices[0].message.content
 
-st.bar_chart(top_countries_loss)
+st.bar_chart(top_countries_loss, use_container_width=True)
+
 st.write(get_completion(prompt))
