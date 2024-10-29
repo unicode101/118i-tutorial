@@ -1,3 +1,4 @@
+# The code was developed based on OpenAI File Search API. The code is further revised with the help of GitHub Copilot
 #pip install --upgrade openai
 import streamlit as st
 import openai
