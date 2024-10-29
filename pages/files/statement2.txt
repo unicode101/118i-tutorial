@@ -1,0 +1,14 @@
+Account Holder: Jane Smith
+Account Number: 9876543210
+
+Statement Period: 01/01/2024 - 31/01/2024
+
+Date        Description             Debit     Credit   Balance
+----------- ----------------------- -------- -------- --------
+01/01/2024  Beginning Balance               $1500.00
+05/01/2024  Salary Deposit                  $3000.00  $4500.00
+10/01/2024  Rent Payment                   $1200.00  $3300.00
+15/01/2024  Groceries                       $250.00   $3050.00
+20/01/2024  Utilities                       $180.00   $2870.00
+25/01/2024  Car Payment                     $350.00   $2520.00
+31/01/2024  Ending Balance                            $2520.00
