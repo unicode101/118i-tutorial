@@ -14,7 +14,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Load the dataset into a pandas DataFrame
-data = pd.read_csv('data/Data.csv')
+data = pd.read_csv('pages/data/Data.csv')
 
 # Display the first few rows of the DataFrame
 st.write(data.head())
